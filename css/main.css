@@ -5,6 +5,12 @@
     background-color: #f1f1f1;
 }
 
+ @media (max-width: 480px) {
+     *{
+        background-color: #e2e2e2;
+     }
+        }
+
 html{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1rem;
