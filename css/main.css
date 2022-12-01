@@ -1,0 +1,137 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: #f1f1f1;
+}
+
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+}
+
+.header{   
+    text-align: center;
+    min-height: 44px;
+    /* border: 3px solid plum; */
+    border-radius: 20px;
+}
+
+.title{
+    background-color: plum;
+    text-align: center;
+}
+
+/* row1div1 */
+.container .row1{
+    display: flex;
+    text-align: center;
+    min-height: 400px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.r1{
+    border-radius: 0 20px 0 20px;
+    border: 2px thin plum;
+}
+
+.row1 .r1{
+    
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    width: 30%;
+}
+
+.row1 .r1 img{
+    width: 70%;
+    height: auto;
+    border: 1px solid plum;
+    
+}
+
+.btn{
+    width: 30%;
+    height: 30px;
+    border-radius: 15px;
+}
+.btn:hover{
+    background-color: plum;
+    height: 35px;
+}
+/* row1div2 */
+.container .row2{
+    display: flex;
+    text-align: center;
+    min-height: 400px;
+    width: 100%;
+    justify-content: space-between;
+}
+.row2 .r1{
+    border: 1px solid green;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    width: 30%;
+}
+.row2 .r1 img{
+    width: 70%;
+    height: auto;
+    border: 1px solid plum;
+    
+}
+/* row1div3 */
+.container .row3{
+    display: flex;
+    text-align: center;
+    min-height: 400px;
+    width: 100%;
+    justify-content: space-between;
+}
+.row3 .r1{
+    border: 1px solid green;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    width: 30%;
+}
+.row3 .r1 img{
+    width: 70%;
+    height: auto;
+    border: 1px solid plum;
+    
+}
+
+/* row2div1 */
+.container .row3{
+    display: flex;
+    text-align: center;
+    min-height: 400px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.row1 .r1{
+    border: 1px solid green;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    width: 30%;
+}
+
+.btn{
+    width: 30%;
+    height: 30px;
+    border-radius: 15px;
+}
+.btn:hover{
+    background-color: plum;
+    height: 35px;
+}
+.footer{
+    text-align: center;
+}
+hr{
+    color: plum;
+}
